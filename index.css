@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    width: 777px;
+    background-color: white;
+}
+
+#banner {
+    width: 777px;
+    height: 79px;
+}
+
+.col {
+    border: solid 2px; 
+}
+
+#one {
+    width: 475px;
+    float: left;
+    padding: 20px;
+}
+
+#two {
+    margin-left: -2px;
+    width: 208px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+
+#one h2 {
+    font-size: 24pt;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: serif;
+    font-size: 12pt;
+    line-height: 120%;
+    color: #5a5a5a;
+    
+}
+
+.content > img {
+    margin-left: 5px;
+    float: right;
+    height: 122px;
+    width: 163px;
+}
+
+#two img {
+    width: 82px;
+    height: 63px;
+    border: solid 1px black;
+}
+
+#two h2 {
+    font-size: 14pt;
+}
