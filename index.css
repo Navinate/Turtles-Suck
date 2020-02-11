@@ -59,3 +59,7 @@ p {
 #two h2 {
     font-size: 14pt;
 }
+
+#email-form {
+    float: left;
+}
