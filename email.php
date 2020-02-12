@@ -1,7 +1,8 @@
 <?php
 print "<h2>PHP is Fun!</h2>";
-$sendee = htmlspecialchars($_POST["email"]);
+$email = htmlspecialchars($_POST["email"]);
 $subject = htmlspecialchars($_POST["subject"]);
 $body = htmlspecialchars($_POST["body"]);
-echo "<h2>" . $sendee . "</h2>";
+$password = htmlspecialchars($_POST["password"]);
+echo "<h2>Sending to " . $email . "</h2>";
 ?>
