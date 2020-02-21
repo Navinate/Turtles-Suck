@@ -13,8 +13,9 @@
 
     function sendEmail() {
         
-
-
+        let formData = document.getElementById("submit-form");
+        console.log("test");
+        console.log(formData);
 
 
         var http = new XMLHttpRequest();
@@ -31,5 +32,5 @@
             }
         }
         http.send(params);
-            }
+    }
 })();
